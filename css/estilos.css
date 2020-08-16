@@ -5,6 +5,9 @@
 body{
 	background-color: #fff;
 }
+.not{
+	font-size: 0px;
+}
 
 #barra{
     text-align: center;
@@ -68,6 +71,16 @@ body{
 	margin-left: -5pc;	
 }
 #datos button{
+	height: 60px;
+	width: 100%;
+	margin-top: 140px;
+	background-color: red;
+	border-color: transparent;
+	cursor: pointer;
+	color: white;
+	font-size: 1.5rem;
+}
+#datos input[type=submit]{ /*PHP*/
 	height: 60px;
 	width: 100%;
 	margin-top: 140px;
